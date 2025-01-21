@@ -1,0 +1,99 @@
+
+.curriculo__conteudo-titulo {
+    color: var(--cor-verde);
+    font-weight: 550;
+    font-size: 2.1rem;
+    margin: 0 0.5%;
+    padding: 0 9%;
+}
+
+.curriculo__conteudo-texto {
+    margin: 0 0.5% 0.8% 0.5%;
+    padding: 0.6% 9%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--cor-escrita);
+    font-family: var(--fonte-montserrat);
+}
+
+.curriculo__conteudo-areas {
+    margin: 0.5% 9.5% 2% 9.5%;
+    padding: 0.5% 0.7%;
+    display: block;
+    border: 2px dotted var(--cor-verde);
+    border-radius: 5px;
+    width: 80%;
+}
+
+.curriculo__conteudo-lista {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.curriculo__conteudo-titulo-area {
+    color: var(--cor-azul-escuro);
+    font-size: 1.6rem; 
+    font-weight: 520;
+    font-family: var(--fonte-montserrat);
+}
+
+.lista-item {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--cor-escrita);
+    font-family: var(--fonte-montserrat);
+}
+
+.lista-link {
+    text-decoration: none;
+    color: var(--cor-escrita);
+}
+
+.lista-link:hover {
+    color: var(--cor-verde);
+}
+
+.link_horas {
+    color: var(--cor-laranja);
+}
+
+.link_horas:hover {
+    color: var(--cor-verde);
+}
+
+#ultimo-bloco-areas {
+    margin-bottom: 30rem;
+}
+
+@media (max-width: 1300px) {
+    .curriculo__conteudo-titulo {
+        margin: 5% 0.5% 1% 0.5%;
+        color: var(--cor-verde);
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    .curriculo__conteudo-texto {
+        margin: 0 0.5% 5% 0.5%;
+        font-size: 1.25rem;
+    }
+
+    .lista-item {
+        font-size: 1.25rem;
+        margin: 0 0.5% 5% 0.5%;
+    }
+
+    .curriculo__conteudo-areas {
+        width: 80%;
+        margin: 0.5% 9.5% 4% 9.5%;
+        padding: 2% 2%;
+      
+    }
+
+    .curriculo__conteudo-titulo-area {
+        font-weight: 550;
+        margin: 1% 0%;
+    }
+
+}    
+

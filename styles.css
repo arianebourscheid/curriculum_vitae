@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url("styles/home.css");
+@import url("styles/curriculo.css");
+
+
+:root {
+    --cor-preto: #292626;
+    --cor-escrita: #d4d4c1;
+    --cor-verde: #0e863a; 
+    --cor-laranja: #aa6016; 
+    --cor-amarelo: #bec45c; 
+    --cor-rosa: #c850ae;
+    --cor-azul-escuro: #3c4aa3; 
+    --cor-vermelho: #a72008;
+    --cor-cinza: #393636; 
+    --fonte-krona-one: 'Krona One', sans-serif;
+    --fonte-montserrat: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-preto);
+    color: var(--cor-escrita);
+}
+
+.rodape {
+    background-color: var(--cor-cinza);
+    border: 3px solid var(--cor-azul-escuro);
+    color: var(--cor-escrita);
+    text-align: center;
+    font-family: var(--fonte-montserrat);
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: 500;
+}
+
