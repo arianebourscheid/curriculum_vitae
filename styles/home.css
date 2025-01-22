@@ -50,12 +50,12 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 0.5rem;
-    border: 2px dotted var(--cor2);
+    border: 2px dotted var(--cor-azul-escuro);
     padding: 0.5rem;
     gap: 1rem;
     width: 23.5rem;
     text-align: center;
-    background-color: var(--cor-back-hover);
+    background-color: var(--cor-cinza);
     text-decoration: none;
     color: var(--cor-3);
     font-family: var(--fonte-montserrat);
@@ -65,8 +65,8 @@ body{
 }
 
 .links__button:hover {
-    background-color: var(--cor-back);
-    border: 2px solid var(--cor2);
+    background-color: var(--cor-preto);
+    border: 2px solid var(--cor-azul-escuro);
     cursor: pointer;
 }
 
