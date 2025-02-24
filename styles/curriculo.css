@@ -68,7 +68,6 @@
 @media (max-width: 1300px) {
     .curriculo__conteudo-titulo {
         margin: 5% 0.5% 1% 0.5%;
-        color: var(--cor-verde);
         font-size: 1.7rem;
         font-weight: 600;
     }
@@ -95,6 +94,5 @@
         font-size: 1.25rem;
         margin: 1% 0%;
     }
-
 }    
 
