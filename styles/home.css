@@ -141,7 +141,6 @@ body{
     }
 
     .imagem {
-        border: 3px double var(--cor-verde);
         padding: 0.3rem;
         width: 60%;
     }
