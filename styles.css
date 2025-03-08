@@ -31,7 +31,6 @@ body {
 
 .rodape {
     background-color: var(--cor-cinza);
-    border: 3px solid var(--cor-azul-escuro);
     color: var(--cor-escrita);
     text-align: center;
     font-family: var(--fonte-montserrat);
