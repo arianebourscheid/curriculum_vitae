@@ -22,7 +22,7 @@
     display: block;
     border: 2px dotted var(--cor-laranja);
     border-radius: 5px;
-    width: 80%;
+    width: 90%;
 }
 
 .curriculo__conteudo-lista {
@@ -95,4 +95,5 @@
         margin: 1% 0%;
     }
 }    
+
 
